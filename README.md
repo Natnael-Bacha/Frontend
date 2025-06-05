@@ -1,13 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Frontend" 
+ 📋 Task Manager - React + Redux
+This Task Manager is a simple React and Redux-based web app that lets users add, view, filter, and delete tasks efficiently. 
+To get started, enter a task title and description, select a status (To Do, In Progress), and click "+". 
+Once added, tasks are displayed in a structured list format. Each task entry includes a checkbox that allows users to mark it as complete—when checked, the task text is visually struck through, making it easy to distinguish completed items at a glance. Additionally, each task has a trash icon for quick deletion, allowing users to remove tasks they no longer need.
+To further enhance task management, the app features a filtering dropdown menu that enables users to view tasks based on their current status. Users can choose to display all tasks, only tasks that are To Do, or only those that are In Progress, providing a focused view that helps with prioritization and workflow management.
